@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import productsReducer from "./popups.reducer.js";
+import popupsReducer from "./popups.reducer.js";
 import { routerReducer as routing } from 'react-router-redux';
 
 export default combineReducers({
     routing,
-    productsReducer
+    popupsReducer
 });
